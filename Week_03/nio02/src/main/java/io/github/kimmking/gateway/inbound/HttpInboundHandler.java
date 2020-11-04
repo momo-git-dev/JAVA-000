@@ -7,12 +7,17 @@ import io.netty.handler.codec.http.FullHttpRequest;
 import io.netty.util.ReferenceCountUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import io.github.kimmking.gateway.filter.HttpRequest;
+import io.github.kimmking.gateway.filter.HttpRequestAddHead;
+
 
 public class HttpInboundHandler extends ChannelInboundHandlerAdapter {
 
     private static Logger logger = LoggerFactory.getLogger(HttpInboundHandler.class);
     private final String proxyServer;
     private HttpOutboundHandler handler;
+    
+    private HttpRequestFilter addRequestHeadFilter = new HttpRequestAddHead();
     
     public HttpInboundHandler(String proxyServer) {
         this.proxyServer = proxyServer;
@@ -35,6 +40,8 @@ public class HttpInboundHandler extends ChannelInboundHandlerAdapter {
 //                handlerTest(fullRequest, ctx);
 //            }
     
+    		//添加请求头 nio:momo
+            addRequestHeadFilter.filter(fullRequest,ctx);
             handler.handle(fullRequest, ctx);
     
         } catch(Exception e) {
