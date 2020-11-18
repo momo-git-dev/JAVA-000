@@ -1,4 +1,4 @@
-package week5.spring.vo;
+package Week05.spring.vo;
 
 import java.io.Serializable;
 

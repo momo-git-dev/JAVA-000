@@ -1,13 +1,13 @@
-package week5.starter;
+package Week05.starter;
 
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import week5.starter.clazz.Klass;
-import week5.starter.clazz.School;
-import week5.starter.clazz.Student;
+import Week05.starter.clazz.Klass;
+import Week05.starter.clazz.School;
+import Week05.starter.clazz.Student;
 
 import java.util.ArrayList;
 import java.util.List;

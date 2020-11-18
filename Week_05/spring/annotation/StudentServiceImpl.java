@@ -1,10 +1,10 @@
-package week5.spring.annotation;
+package Week05.spring.annotation;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import week5.spring.vo.Student;
-import week5.spring.xml.StudentDao;
+import Week05.spring.vo.Student;
+import Week05.spring.xml.StudentDao;
 
 @Service
 public class StudentServiceImpl implements StudentService {

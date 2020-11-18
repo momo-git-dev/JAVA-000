@@ -1,4 +1,4 @@
-package week5.spring.javaconfig;
+package Week05.spring.javaconfig;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
 
 @Configuration
-@ComponentScan("week5.spring.javaconfig")
+@ComponentScan("Week05.spring.javaconfig")
 public class StudentConfig {
 
     public StudentConfig() {

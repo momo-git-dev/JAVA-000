@@ -1,7 +1,7 @@
-package week5.jdbc.dao;
+package Week05.jdbc.dao;
 
 
-import week5.jdbc.vo.StudentVO;
+import Week05.jdbc.vo.StudentVO;
 
 import java.util.List;
 

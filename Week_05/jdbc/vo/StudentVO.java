@@ -1,4 +1,4 @@
-package week5.jdbc.vo;
+package Week05.jdbc.vo;
 
 public class StudentVO {
 

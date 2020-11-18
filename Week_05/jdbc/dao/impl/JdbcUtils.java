@@ -1,4 +1,4 @@
-package week5.jdbc.dao.impl;
+package Week05.jdbc.dao.impl;
 
 import java.sql.*;
 

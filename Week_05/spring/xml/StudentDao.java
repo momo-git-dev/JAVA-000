@@ -1,7 +1,7 @@
-package week5.spring.xml;
+package Week05.spring.xml;
 
 
-import week5.spring.vo.Student;
+import Week05.spring.vo.Student;
 
 public interface StudentDao {
 

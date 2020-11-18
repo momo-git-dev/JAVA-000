@@ -1,4 +1,4 @@
-package week5.spring.javaconfig;
+package Week05.spring.javaconfig;
 
 public class StudentBean {
     public void init() {

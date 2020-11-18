@@ -1,4 +1,4 @@
-package week5.starter.clazz;
+package Week05.starter.clazz;
 
 
 import lombok.Data;

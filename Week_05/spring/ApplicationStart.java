@@ -1,14 +1,14 @@
-package week5.spring;
+package Week05.spring;
 
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import week5.spring.annotation.StudentService;
-import week5.spring.javaconfig.StudentBean;
-import week5.spring.javaconfig.StudentConfig;
-import week5.spring.vo.Student;
-import week5.spring.xml.StudentDao;
+import Week05.spring.annotation.StudentService;
+import Week05.spring.javaconfig.StudentBean;
+import Week05.spring.javaconfig.StudentConfig;
+import Week05.spring.vo.Student;
+import Week05.spring.xml.StudentDao;
 
 public class ApplicationStart {
     public static void main(String[] args) {

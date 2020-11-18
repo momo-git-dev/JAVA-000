@@ -1,10 +1,10 @@
-package week5.jdbc.dao.impl;
+package Week05.jdbc.dao.impl;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import week5.jdbc.dao.StudentDao;
-import week5.jdbc.vo.StudentVO;
+import Week05.jdbc.dao.StudentDao;
+import Week05.jdbc.vo.StudentVO;
 
 import javax.sql.DataSource;
 import java.sql.Connection;
